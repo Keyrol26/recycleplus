@@ -1,0 +1,30 @@
+.error-message {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: -5px;
+    display: none;
+}
+
+/* Icon for Error */
+.validation-icon.error {
+    color: #f44336;
+    display: block;
+}
+
+/* Icon for Success */
+.validation-icon.success {
+    color: #4CAF50;
+    display: block;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border-color: #ebccd1;
+}

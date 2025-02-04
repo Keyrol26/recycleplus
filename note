@@ -1,0 +1,105 @@
+9 Nov
+<Login Page>
+
+-   input validation style
+-   Bg image
+-   all btn link page
+
+25 Nov
+<Client>
+
+-   live search function for booking history
+-   pagination (9 per page)
+
+27 Nov
+<Image Classification>
+
+-   Cardboard detect Unvalid item , need to be train more
+-   Plastic Bootle detect as Valid item
+
+30 Nov
+<Client>
+
+-   Page content and style need to be update
+-   Page style need to be update
+-   live search function for booking history
+-   booking pagination (9 per page)
+
+2 Dec
+<Client>
+
+-   Form Style X
+
+7 Dec
+<Collector>
+
+-   Route Map Page
+    (idea)
+    -   Empty Page with a map without any location,
+    -   2 select option to select 2 booking address the submit query
+    -   Appear map
+
+9 Dec
+<UX>
+-   Form and Page Content
+
+----------------------------------------------------------<Completeddd>----------------------------------------------------------
+
+
+7 Dec [Finish Date 8 Dec]
+<Client>
+
+-   address select style
+-   booking details need to add collector assigned details
+-   Profile Update, Email and Pass
+-   address add, delete, update
+
+
+6 Dec [Finish Date 7 Dec]
+<Admin, Collector and Superadmin>
+
+-   profile, email pass update (/)
+-   address add (/), delete (/), update (/)
+
+<Collector>
+
+-   update available pickup status (/)
+
+2 Dec
+<Client>
+
+-   Index Page content /
+
+28 Nov
+<Open>
+
+-   Toast Notification still not working (/)
+
+27 Nov
+<Admin, Collector and Superadmin>
+
+-   dashboard need to be update (/)
+
+25 Nov
+<Client>
+
+-   add new address for user in booking form (/)
+
+22 Nov
+<Superadmin>
+
+-   delete user confirmation by entering password to make it more secured (/)
+
+20 Nov
+<Admin, Collector and Superadmin>
+
+-   need to add 1 new attribute in table Booking (/)
+    which is pickup_status and the data will be either OTW or Collected ,
+    this is for collector to update it
+
+<Client>
+- Update the address update mthod and select address for form booking (/)
+
+11 Nov
+<database>
+-kene tmbh completed status so tmbh pages (/)
