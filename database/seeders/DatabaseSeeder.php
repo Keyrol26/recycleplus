@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,
             CollectorSeeder::class,
             ClientSeeder::class,
-            // BookingSeeder::class,
+            RecycleCenterSeeder::class,
         ]);
     }
 }

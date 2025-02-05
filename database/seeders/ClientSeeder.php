@@ -34,7 +34,7 @@ class ClientSeeder extends Seeder
             ['street' => '5, Jalan Mesra 7, Hicom-glenmarie Industrial Park','postal_code' => '40150'],
         ];
 
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 5; $i++) {
             $user = User::create([
                 'name' => $faker->name,
                 'email' => $faker->unique()->safeEmail,
