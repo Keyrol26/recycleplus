@@ -43,7 +43,7 @@
 <script>
     function fetch_data(query = '', page = 1) {
         $.ajax({
-            url: "{{ $dataRoute }}",
+            url: "{{ secure_url($dataRoute) }}",
             method: 'GET',
             data: {
                 query: query,

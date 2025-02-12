@@ -191,10 +191,8 @@ class BookingController extends Controller
     public function searchall(Request $request)
     {
         $query = $request->get('query');
-
-        $data = Booking::where('status', 'like', 'Rejected')
-            ->Orwhere('status', 'like', 'Pending')
-            ->Orwhere('status', 'like', 'Accepted')
+        $statuses = ['Rejected', 'Pending', 'Accepted'];
+        $data = Booking::whereIn('status', $statuses)
             ->where('pickup_status', Null)
             ->when($query, function ($query, $search) {
                 return $query->where(function ($query) use ($search) {

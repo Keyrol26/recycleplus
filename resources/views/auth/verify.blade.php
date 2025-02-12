@@ -35,7 +35,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>RecyclePlus | Reset Password</title>
+    <title>RecyclePlus | Verify Email Address</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ URL::asset('assets/images-bg/3.svg') }}">
