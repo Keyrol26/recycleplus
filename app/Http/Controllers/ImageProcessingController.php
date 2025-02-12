@@ -26,7 +26,7 @@ class ImageProcessingController extends Controller
         $fullImagePath = str_replace('/', '\\', storage_path('app/public/' . $imageRelativePath));
 
         // Python executable and script path
-        $pythonExecutable = 'C:\\Users\\khais\\AppData\\Local\\Programs\\Python\\Python310\\python.exe';
+        $pythonExecutable = 'C:\\Users\\Your_Name\\AppData\\Local\\Programs\\Python\\Python310\\python.exe';
         $pythonScriptPath = base_path('img_processing/script/app.py');
 
         // Set environment variables (Prevents hash issues in Windows)
@@ -111,7 +111,7 @@ class ImageProcessingController extends Controller
         foreach ($unvalidatedImages as $waste) {
             $fullImagePath = storage_path('app/public/' . $waste->recycle_image);
 
-            $pythonExecutable = 'C:\Users\khais\AppData\Local\Programs\Python\Python310\python.exe';
+            $pythonExecutable = 'C:\Users\Your_Name\AppData\Local\Programs\Python\Python310\python.exe';
             $pythonScriptPath = base_path('img_processing/script/app.py');
 
             putenv('PYTHONHASHSEED=0');
