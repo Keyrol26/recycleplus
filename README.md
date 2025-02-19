@@ -7,7 +7,7 @@
 </p>
 
 ## About
-A smart waste management system with AI-based image classification for recyclable items and a booking system for waste collection"]. The system is designed to improve efficiency, enhance user experience, and promote sustainability..
+A smart waste management system with AI-based image classification for recyclable items and a booking system for waste collection. The system is designed to improve efficiency, enhance user experience, and promote sustainability..
 
 <img src="https://github.com/user-attachments/assets/ec277825-5b4b-4969-8c1f-4e196dbac2f9" width="150">
             
